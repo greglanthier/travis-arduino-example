@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# {latformio generated directories
+.pioenvs
+.sconsign.dblite
+
