@@ -3,7 +3,7 @@ compiler:
  - gcc
 
 install:
- - wget http://downloads.arduino.cc/arduino-1.6.0-linux64.xz
+ - wget http://downloads.arduino.cc/arduino-1.6.0-linux64.tar.xz
  - ls -alF
  - tar -xvf arduino-1.6.0-linux64.tgz
  - sudo mv arduino-1.6.0/ /usr/local/share/arduino
