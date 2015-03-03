@@ -1,30 +1,10 @@
 language: cpp
-compiler:
- - gcc
-
-# Grab Arduino 1.6.0
+#compiler:
+# - gcc
 
 install:
  - sudo pip install platformio
-# - wget http://downloads.arduino.cc/arduino-1.6.0-linux64.tar.xz
-# - ls -alF
-# - tar -xvf arduino-1.6.0-linux64.tar.xz
-# - sudo mv arduino-1.6.0/ /usr/local/share/arduino
-# - sudo apt-get install aptitude
-# - sudo aptitude update && sudo aptitude -y install ia32-libs
-# - sudo pip install platformio
-
-# - git clone -b ide1.5x https://github.com/justonia/ino.git
-# - cd ino && sudo make install && cd ../
-# - sudo pip install jinja2
-# - sudo pip install pyserial
-# - pwd
 
 script:
  - yes | platformio run
-# - file /usr/local/share/arduino/hardware/tools/g++_arm_none_eabi/bin
-# - ls -alF /usr/local/share/arduino/hardware/tools/g++_arm_none_eabi/bin
-# - /usr/local/share/arduino/hardware/tools/g++_arm_none_eabi/bin/arm-none-eabi-gcc --version
-# - platformio run
-# - cd blink && ino build -m arduino_due_x_dbg
 
