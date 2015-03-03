@@ -1,6 +1,4 @@
 language: cpp
-#compiler:
-# - gcc
 
 install:
  - sudo pip install platformio
