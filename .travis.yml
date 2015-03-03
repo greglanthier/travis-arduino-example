@@ -2,6 +2,8 @@ language: cpp
 compiler:
  - gcc
 
+# Grab Arduino 1.6.0
+
 install:
  - wget http://downloads.arduino.cc/arduino-1.6.0-linux64.tar.xz
  - ls -alF
