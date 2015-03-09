@@ -1,0 +1,3 @@
+[submodule "arduino-menusystem"]
+	path = arduino-menusystem
+	url = https://github.com/jonblack/arduino-menusystem.git
